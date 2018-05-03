@@ -2,6 +2,9 @@ pragma solidity ^0.4.18;
 
 import "./open-zeppelin/Ownable.sol";
 
+/**
+URL: https://ethernaut.zeppelin.solutions/level/0x220beee334f1c1f8078352d88bcc4e6165b792f6
+ */
 contract Fallout is Ownable {
     mapping (address => uint) allocations;
 
