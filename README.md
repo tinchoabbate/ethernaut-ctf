@@ -7,4 +7,4 @@ Based on [https://ethernaut.zeppelin.solutions/](https://ethernaut.zeppelin.solu
 ## Usage
 1. Start ganache-cli in port 7545 with `ganache-cli --port 7545`
 2. Deploy contracts to blockchain `truffle migrate`
-3. Execute exploit with `truffle exec exploits/fallback.exploit.js`
+3. Execute exploit with `truffle exec exploits/<filename>`
