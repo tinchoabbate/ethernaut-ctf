@@ -8,7 +8,7 @@ let Token = artifacts.require('./Token.sol')
 const TOKEN_INITIAL_SUPPLY = 20
 let Delegate = artifacts.require('./Delegate.sol')
 let Delegation = artifacts.require('./Delegation.sol')
-
+let Force = artifacts.require('./Force.sol')
 
 module.exports = deployer => {
     deployer.deploy(Fallback)
@@ -21,4 +21,5 @@ module.exports = deployer => {
     deployer.deploy(Delegate, web3.eth.accounts[0]).then(() => {
         return deployer.deploy(Delegation, Delegate.address)
     })
+    deployer.deploy(Force)
 }
