@@ -9,6 +9,7 @@ const TOKEN_INITIAL_SUPPLY = 20
 let Delegate = artifacts.require('./Delegate.sol')
 let Delegation = artifacts.require('./Delegation.sol')
 let Force = artifacts.require('./Force.sol')
+let Vault = artifacts.require('./Vault.sol')
 
 module.exports = deployer => {
     deployer.deploy(Fallback)
@@ -22,4 +23,5 @@ module.exports = deployer => {
         return deployer.deploy(Delegation, Delegate.address)
     })
     deployer.deploy(Force)
+    deployer.deploy(Vault, web3.fromAscii('4_Sup3r-S3kur3_P4sSw0rD!', 32))
 }
