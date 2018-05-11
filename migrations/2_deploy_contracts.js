@@ -11,6 +11,7 @@ let Force = artifacts.require('./Force.sol')
 let Vault = artifacts.require('./Vault.sol')
 let King = artifacts.require('./King.sol')
 let KingAttack = artifacts.require('./KingAttack.sol')
+let Reentrance = artifacts.require('./Reentrance.sol')
 
 const TOKEN_INITIAL_SUPPLY = 20
 const INITIAL_PRIZE = 0.01
@@ -29,7 +30,7 @@ module.exports = deployer => {
     deployer.deploy(Force)
     deployer.deploy(Vault, web3.fromAscii('4_Sup3r-S3kur3_P4sSw0rD!', 32))
     deployer.deploy(King, {
-        from: web3.eth.accounts[0],
         value: web3.toWei(0.01, 'ether')
     })
+    deployer.deploy(Reentrance)
 }
