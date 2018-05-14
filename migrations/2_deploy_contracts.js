@@ -12,6 +12,7 @@ let Vault = artifacts.require('./Vault.sol')
 let King = artifacts.require('./King.sol')
 let KingAttack = artifacts.require('./KingAttack.sol')
 let Reentrance = artifacts.require('./Reentrance.sol')
+let Elevator = artifacts.require('./Elevator.sol')
 
 const TOKEN_INITIAL_SUPPLY = 20
 const INITIAL_PRIZE = 0.01
@@ -33,4 +34,5 @@ module.exports = deployer => {
         value: web3.toWei(0.01, 'ether')
     })
     deployer.deploy(Reentrance)
+    deployer.deploy(Elevator)
 }
