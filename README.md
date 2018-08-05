@@ -1,6 +1,8 @@
 # ethernaut-ctf
 Based on [https://ethernaut.zeppelin.solutions/](https://ethernaut.zeppelin.solutions/)
 
+Find the writeups at [hackingmood.com](https://hackingmood.com)
+
 ## Requirements
 - Truffle and Ganache-cli (`npm i -g truffle ganache-cli`)
 
