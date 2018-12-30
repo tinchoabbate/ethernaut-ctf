@@ -1,0 +1,24 @@
+{
+  "name": "ethernaut-ctf",
+  "version": "1.0.0",
+  "description": "Based on [https://ethernaut.zeppelin.solutions/](https://ethernaut.zeppelin.solutions/)",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinchoabbate/ethernaut-ctf.git"
+  },
+  "keywords": [],
+  "author": "Martin Abbatemarco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinchoabbate/ethernaut-ctf/issues"
+  },
+  "homepage": "https://github.com/tinchoabbate/ethernaut-ctf#readme",
+  "dependencies": {
+    "ganache-cli": "^6.1.8",
+    "truffle": "^4.1.14"
+  }
+}
