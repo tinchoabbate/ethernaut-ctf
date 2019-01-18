@@ -4,7 +4,7 @@
   "description": "Based on [https://ethernaut.zeppelin.solutions/](https://ethernaut.zeppelin.solutions/)",
   "main": "truffle-config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx truffle test --network testrpc"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/tinchoabbate/ethernaut-ctf#readme",
   "dependencies": {
     "ganache-cli": "^6.1.8",
+    "rlp": "^2.2.2",
+    "sha3": "^2.0.0",
     "truffle": "^4.1.14"
   }
 }

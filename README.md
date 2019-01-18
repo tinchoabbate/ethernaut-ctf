@@ -11,4 +11,4 @@ You can find the writeups at [notonlyowner.com](https://notonlyowner.com)
 2. Deploy contracts to local blockchain running `npx truffle migrate`
 3. Execute exploit with `npx truffle exec exploits/<filename>`
 
-> Note: I initially started coding the exploits as Truffle external scripts, that's why they are to be executed with `npx truffle exec`. Another totally valid approach, and somewhat simpler, would be to just build the exploits as [Truffle tests](https://truffleframework.com/docs/truffle/testing/writing-tests-in-javascript).
+> Note: I initially started coding the exploits as Truffle external scripts, that's why most of them are to be executed with `npx truffle exec`. Another totally valid approach, and somewhat simpler, would be to just build the exploits as [Truffle tests](https://truffleframework.com/docs/truffle/testing/writing-tests-in-javascript). This is what I started doing after `Privacy`.
