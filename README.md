@@ -1,5 +1,5 @@
 # ethernaut-ctf
-Based on [https://ethernaut.zeppelin.solutions/](https://ethernaut.zeppelin.solutions/)
+Based on [https://ethernaut.openzeppelin.com/](https://ethernaut.openzeppelin.com/)
 
 You can find the writeups at [notonlyowner.com](https://notonlyowner.com)
 
